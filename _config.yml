@@ -11,6 +11,12 @@ author: Mimosa
 language: zh-CN
 timezone: ''
 
+# _config.yml 文件中有的 GitHub Pages 配置
+deploy:
+  type: git
+  repository: git@github.com:zsj4911/mimosa-blog.git
+  branch: main
+
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
 url: https://zsj4911.github.io/mimosa-blog/
