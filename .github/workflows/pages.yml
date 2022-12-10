@@ -6,7 +6,7 @@ on:
       - main # default branch
 env:
   THEME_REPO: fluid-dev/hexo-theme-fluid
-  THEME_BRANCH: main
+  THEME_BRANCH: master
 
 jobs:
   pages:
