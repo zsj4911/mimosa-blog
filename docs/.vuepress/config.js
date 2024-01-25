@@ -1,7 +1,7 @@
 module.exports = {
   title: 'JavaScript常用操作',
   description: '写写博客，涨涨见识',
-  base: '/gh-pages/',
+  base: '/mimosa-blog/',
   theme: 'reco',
   themeConfig: {
     nav: [

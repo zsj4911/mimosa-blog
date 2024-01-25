@@ -22,6 +22,8 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: 16.16.0
+
+      # 安装依赖和打包代码
       - run: npm install && npm run docs:build
 
       # 部署到 GitHub Pages
